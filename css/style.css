@@ -7,6 +7,7 @@ body{
 nav,ul,li{
     list-style: none;
 }
+
 a{
     text-transform: uppercase;
     color: #000;
@@ -31,9 +32,6 @@ hr{
     }
 }
 @media (max-width:767.98px){
-    [class*="--container"]{
-        max-width: none;
-    }
 }
 
 .wrapper{
@@ -175,7 +173,7 @@ hr{
     font-size: 44px;
 }
 .textbox-paragraph{
-    width: 375px;
+    width: 90%;
     font-size: 12px;
     color: #616161;
 }
@@ -301,6 +299,7 @@ hr{
 .experts-content{
     margin: 100px 0;
 }
+
 /*=============footer================================*/
 .footer--container{
     display: flex;
@@ -310,6 +309,7 @@ hr{
     display: flex;
     align-items: center;
 }
+
 /*======================media===========================*/
 @media (max-width:991.98px){
     .header--button{
@@ -330,6 +330,12 @@ hr{
     .decor{
         width: 330px;
     }
+    .getstarted-content--image{
+        scale: 0.5;
+    }
+    .features-content--text{
+        text-align: center;
+    }
 }
 @media (max-width:767.98px){
     .decor{
@@ -340,6 +346,9 @@ hr{
     }
     .website-stats{
         width: 300px;
+    }
+    .textbox-paragraph{
+        text-align: center;
     }
 }
 @media (max-width:400.98px){
