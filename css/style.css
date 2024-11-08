@@ -158,7 +158,7 @@ hr{
 .main--container{
     margin-top: 153px;
 }
-.getstarted-content{
+.contentblock{
     display: flex;
     align-items: center;
 }
@@ -192,12 +192,6 @@ hr{
     font-size: 9px;
 }
 /************************************/
-.features-content {
-    margin: 50px 0;
-    display: flex;
-    align-items: center;
-    gap: 20px; 
-}
 .features-content--text span{
     color: #f05252;
 }   
@@ -306,7 +300,6 @@ hr{
 }
 .experts-content{
     margin: 100px 0;
-    display: flex;
 }
 /*=============footer================================*/
 .footer--container{
@@ -342,8 +335,11 @@ hr{
     .decor{
         display: none;
     }
-    .getstarted-content--image{
-        display: none;
+    .contentblock{
+        flex-direction: column;
+    }
+    .website-stats{
+        width: 300px;
     }
 }
 @media (max-width:400.98px){
